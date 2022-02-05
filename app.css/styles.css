@@ -1,0 +1,24 @@
+:root {
+    --background-color: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+    --main-color: #9f1e49;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+    background: var(--background-color);
+}
+h1 {
+    color: var(--main-color);
+}
+.connection-link {
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+}
+img {
+    display: block;
+    margin: auto;
+    box-shadow: var(--box-shadow);
+}
+.email-link {
+    color: var(--main-color);
+}
