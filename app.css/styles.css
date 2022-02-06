@@ -9,10 +9,10 @@ body {
 h1 {
     color: var(--main-color);
 }
-.connection-link {
+footer {
     display: flex;
     justify-content: center;
-    color: #9f1e49;
+    color: var(--main-color);
 }
 img {
     display: block;
